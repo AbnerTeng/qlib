@@ -8,8 +8,15 @@ codes: [https://github.com/SJTU-Quant/MASTER](https://github.com/SJTU-Quant/MAST
 ## config
 We recommend you to use conda to config the environment and run the codes:
 > Note that you should install `torch` and by your self.
+
 ```
 bash config.sh
+```
+
+```bash
+conda install yaml
+conda install cryptography
+conda install pytorch
 ```
 
 ## run
@@ -22,3 +29,5 @@ bash run.sh
 ```
 qrun workflow_config_master_Alpha158.yaml
 ``` -->
+
+Type `tail -f ./log/cis500.log` to see the log of the running process.
